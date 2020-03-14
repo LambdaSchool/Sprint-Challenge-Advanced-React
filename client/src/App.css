@@ -31,3 +31,46 @@
     transform: rotate(360deg);
   }
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.DarkModeToggle {
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 14px;
+  background-color: blue;
+  color: white; 
+}
+
+
+.dark-mode-toggle {
+  background: papayawhip;
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.toggle {
+  background: #f68819;
+  border-radius: 50px;
+  height: 18px;
+  left: 0;
+  position: absolute;
+  transition: 0.2s;
+  width: 20px;
+}
+
+.toggled {
+  left: 18px;
+}
+
+.headerToggle {
+  float: right;
+}
+
