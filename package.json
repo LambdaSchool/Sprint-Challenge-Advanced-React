@@ -5,8 +5,13 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "bootstrap": "^4.4.1",
     "cors": "^2.8.3",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "express-load": "^1.1.16",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-charts": "^2.0.0-beta.6",
+    "recharts": "^1.8.5"
   },
   "devDependencies": {
     "nodemon": "^1.17.2"

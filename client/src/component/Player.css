@@ -1,0 +1,33 @@
+.list {
+  width: 100%;
+  margin: 0 auto;
+}
+.table {
+  margin: 0 auto;
+}
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 20px;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+  list-style: none;
+}
+td {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #263650;
+  padding: 10px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
